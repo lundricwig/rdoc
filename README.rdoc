@@ -1,0 +1,59 @@
+= Heading Level 1
+
+== Heading Level 2
+
+=== Heading Level 3
+
+==== Heading Level 4
+
+= Text Formatting
+
+*bold text*
+_italic text_
++code text+
+
+= Links and Images
+
+{Google}[https://google.com]
+
+!https://images.unsplash.com/photo-1490682143684-14369e18dce8?!
+
+!https://images.unsplash.com/photo-1495616811223-4d98c6e9c869?w=400!
+
+!./images/local.png!
+
+!./images/logo.svg!
+
+= Code Block
+
+  def hello()
+    puts "Hello World!"
+  end
+
+= Lists
+
+* Unordered item 1
+* Unordered item 2
+  * Nested item 1
+  * Nested item 2
+
+1. Ordered item 1
+2. Ordered item 2
+   1. Nested ordered 1
+   2. Nested ordered 2
+
+= Tables (HTML)
+
+<table>
+  <tr><th>Header 1</th><th>Header 2</th></tr>
+  <tr><td>Cell 1</td><td>Cell 2</td></tr>
+</table>
+
+= Raw HTML
+
+<div align="center">
+  <h3>Centered heading</h3>
+  <img src="https://images.unsplash.com/photo-1490682143684-14369e18dce8" width="300" />
+</div>
+
+---
